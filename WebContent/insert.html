@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="menu">
+		<div class="label">Task Menu</div>
+		<div class="spacer"></div>
+		<a href="#" class="item"><span>Insert</span></a>
+		<a href="delete.html" class="item"><span>Delete</span></a>
+		<a href="ListTasks" class="item"><span>View All</span></a>
+	</div>
+
+	<div class="form">
+		<h1>Create Task</h1>
+		<form action="InsertTask" method="POST">
+			<input type="text" name="name" placeholder="Task Name" required="required" />
+			<input type="text" name="date" placeholder="Date (YYYY-MM-DD)" required="required" />
+			<input type="text" name="priority" placeholder="Priority (1 - 4)" required="required" />
+			<button type="submit" class="btn btn-primary btn-block btn-large">Create</button>
+		</form>
+	</div>
+</body>
+
+</html>
